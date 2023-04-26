@@ -62,7 +62,7 @@ def check_for_changes():
                 "embeds": [
                     {
                         "title": "❗ Changement de la page détecté !!! ❗",
-                        "description": f"⚠️ Un changement a été détecté sur la page de la billetterie ⚠️\n\n 👉 Les caractères modifiés sont les suivants : ```{changes_str}``` 👈 \n\n🕐 Changement détecté le {datetime.datetime.now()} ",
+                        "description": f"⚠️ Un changement a été détecté sur la page ⚠️\n\n 👉 Les caractères modifiés sont les suivants : ```{changes_str}``` 👈 \n\n🕐 Changement détecté le {datetime.datetime.now()} ",
                         "color": 5814783
                     }
                 ],
